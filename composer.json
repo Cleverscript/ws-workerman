@@ -1,0 +1,13 @@
+{
+    "config": {
+      "disable-tls": true
+    },
+    "autoload": {
+      "psr-4": {
+        "App\\": "app/"
+      }
+    },
+    "require": {
+        "workerman/workerman": "^4.1"
+    }
+  }
