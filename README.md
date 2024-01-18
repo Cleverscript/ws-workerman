@@ -19,13 +19,16 @@ php ws/index.php start
 
 If everything went well, the console will show
 
+```bash
 ------------------------------------------- WORKERMAN --------------------------------------------
 Workerman version:4.1.14          PHP version:8.3.1           Event-Loop:\Workerman\Events\Select
 -------------------------------------------- WORKERS ---------------------------------------------
 proto   user            worker          listen                      processes    status           
 tcp     toorr2p         none            websocket://0.0.0.0:2346    4             [OK]            
 --------------------------------------------------------------------------------------------------
+```
 
+```
 Usage: php yourfile <command> [mode]
 Commands: 
 start           Start worker in DEBUG mode.
@@ -40,6 +43,8 @@ reload          Reload codes.
 status          Get worker status.
                 Use mode -d to show live status.
 connections     Get worker connections.
+```
 
 Open web pages and move the unit, the coordinates will be synchronized on all tabs!
+
 http://ws-workerman.local 
