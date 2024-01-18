@@ -2,19 +2,20 @@
 /**
  * Simple websockets app with workerman
  */
-
 use Workerman\Worker;
 
-//Composer autoload inc
+//Composer autoload include
 require_once(__DIR__ . '/../vendor/autoload.php');
 
-
+//Create websocket
 $wsWorker = new Worker('websocket://0.0.0.0:2346');
 $wsWorker->count = 4;
 
+//Create collback event connect
 $wsWorker->onConnect = function ($connection) {
     echo "New connection \n";
 };
+
 
 $wsWorker->onMessage = function ($connection, $data) use ($wsWorker) {
     
@@ -25,9 +26,11 @@ $wsWorker->onMessage = function ($connection, $data) use ($wsWorker) {
     }
 };
 
+//Create collback event close
 $wsWorker->onClose = function ($connection) {
     echo "Connection close \n";
 };
 
+//
 Worker::runAll();
 ?>

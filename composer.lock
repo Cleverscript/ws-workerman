@@ -8,16 +8,16 @@
     "packages": [
         {
             "name": "workerman/workerman",
-            "version": "v4.1.10",
+            "version": "v4.1.14",
             "source": {
                 "type": "git",
                 "url": "https://github.com/walkor/workerman.git",
-                "reference": "e967b79f95b9251a72acb971be05623ec1a51e83"
+                "reference": "f7c9667c7b5387c01fa9e50ee79ed931e93ee76e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/walkor/workerman/zipball/e967b79f95b9251a72acb971be05623ec1a51e83",
-                "reference": "e967b79f95b9251a72acb971be05623ec1a51e83",
+                "url": "https://api.github.com/repos/walkor/workerman/zipball/f7c9667c7b5387c01fa9e50ee79ed931e93ee76e",
+                "reference": "f7c9667c7b5387c01fa9e50ee79ed931e93ee76e",
                 "shasum": ""
             },
             "require": {
@@ -67,7 +67,7 @@
                     "type": "patreon"
                 }
             ],
-            "time": "2023-05-01T02:12:20+00:00"
+            "time": "2023-08-09T03:37:45+00:00"
         }
     ],
     "packages-dev": [],
